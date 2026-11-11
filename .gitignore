@@ -1,0 +1,16 @@
+# Private: never publish the answer key
+answer_key.md
+*answer_key*
+
+# Windows / OneDrive system files
+desktop.ini
+Thumbs.db
+~$*
+
+# Editor settings
+.vscode/
+.idea/
+
+# pgAdmin / Excel temp files
+*.tmp
+*.bak
