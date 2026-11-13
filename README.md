@@ -3,7 +3,7 @@
 
 **TL;DR:** _In progress._ Using SQL, I analyzed customers, support tickets, product usage and survey data for a SaaS company to find what drives customer churn and which accounts the Customer Success team should act on.
 
-> **Note:** Lumora is a fictional company and all data is synthetic, generated for practice using Claude. No real customers or personal data are included.
+> **Note:** Lumora is a fictional company and all data is synthetic, generated for practice using Claude. No real customers or personal data are included. Claude was used for creating the project structure, readme, and datasets. The queries written in the queries folder, findings, and conclusions were all written and produced by me. 
 
 ---
 
