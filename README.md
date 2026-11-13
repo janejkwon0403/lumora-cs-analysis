@@ -1,9 +1,9 @@
 # Customer Success Analytics: Lumora (SQL / PostgreSQL)
+# Author: Jane Kwon
 
-<!-- TODO: Replace this TL;DR once your findings are done (2–3 sentences: what you found + what you'd recommend). -->
 **TL;DR:** _In progress._ Using SQL, I analyzed customers, support tickets, product usage and survey data for a SaaS company to find what drives customer churn and which accounts the Customer Success team should act on.
 
-> **Note:** Lumora is a fictional company and all data is synthetic, generated for practice. No real customers or personal data are included.
+> **Note:** Lumora is a fictional company and all data is synthetic, generated for practice using Claude. No real customers or personal data are included.
 
 ---
 
@@ -125,25 +125,6 @@ lumora-cs-analysis/
 └── images/                 ← schema diagram and charts
 ```
 
-## Key findings
-
-<!-- TODO: Add one section per finding. Template:
-
-### 1. Headline that states the finding
-One or two sentences explaining what the data shows, with the key number.
-
-![Chart title](images/your_chart.png)
-
-**Recommendation:** what the CS team should do about it.
-**Query:** [queries/02_example.sql](queries/02_example.sql)
--->
-
-_Analysis in progress. See [findings.md](findings.md) for the working log._
-
-## Recommendations for the CS team
-
-<!-- TODO: 3–5 concrete actions a CS manager could approve: who to contact, what to change, what to measure. -->
-
 _Coming soon._
 
 ## How to reproduce
@@ -169,18 +150,9 @@ The seed script uses portable SQL and also runs in MySQL 8+ and SQLite.
 
 ## Skills demonstrated
 
-<!-- TODO: keep only what you actually used -->
-- Multi-table `JOIN`s across customer, support, usage and survey data
-- Aggregation and grouping (`GROUP BY`, `HAVING`, conditional `CASE` aggregates)
-- Common table expressions (`WITH`)
-- Window functions (`ROW_NUMBER`, `LAG`)
-- Date and time analysis (`DATE_TRUNC`, intervals)
-- Turning query results into business recommendations
 
 ## What I learned
 
-<!-- TODO: 2–4 sentences. What was hardest? What surprised you? What would you analyze next? -->
-
 ---
 
-**Author:** _Your Name_ · [LinkedIn](https://www.linkedin.com/in/your-profile) <!-- TODO -->
+**Author:** Jane Kwon [LinkedIn](https://www.linkedin.com/in/janejkwon) 

@@ -1,26 +1,17 @@
-# Findings Log
+# Lumora Customer Success Findings
+## Baseline (all customers, as of 2026-09-30)
 
-Working notes for the Lumora analysis. Each finding links to the query that produced it.
-The polished summary lives in the [README](README.md).
+Query: `queries/01_baseline.sql`
 
-## Baseline
-
-<!-- Company-wide numbers to compare every group against (from queries/01_baseline.sql) -->
 | Metric | Value |
 |---|---|
-| Overall churn rate | |
-| Average CSAT | |
-| Average NPS | |
-| Tickets per account | |
-| Average first response (minutes) | |
+| Accounts | 320 (261 Active / 59 Churned) |
+| Churn rate | 18.4% |
+| Onboarding completion rate | 78.4% |
+| Average CSAT (answered surveys) | 3.97 |
+| CSAT 4–5 share (answered surveys) | 73.9% |
+| NPS | -14.1 (Promoters 24.6%, Detractors 38.7%) |
+| First response within 1 hour | 2160 of 3,373 tickets |
 
----
 
-<!-- Copy this block for each finding.
-
-## Finding: (one sentence)
-- **Query:** [queries/02_example.sql](queries/02_example.sql)
-- **Evidence:** the numbers that prove it, including group sizes
-- **What it means:** why it matters for customers or revenue
-- **What CS should do:** the action you'd recommend
--->
+## Findings
